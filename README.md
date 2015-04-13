@@ -1,5 +1,14 @@
-Statement of problem
---------------------
+slow-config
+-----------
+
+Here's a semi-realistic problem I set out to solve using ZeroMQ. Somebody
+thought that a certain type of distributed computing problem would not be
+easy to solve using conventional methods of interprocess communications.
+I thought that this would be a good showcase of how much easier ZeroMQ
+makes distributed computing. That got me wondering how I would solve it
+using ZeroMQ, and here it is. I am sure 5 years from now my solution would
+be very different and hopefully more elegant, but this reflects my level
+now. So here goes...
 
 We are licensing library mylib from company C. mylib has the following
 functionality:
